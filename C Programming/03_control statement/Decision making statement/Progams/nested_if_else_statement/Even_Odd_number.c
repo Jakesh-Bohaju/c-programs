@@ -7,6 +7,8 @@ The following program implement nested if else statement.
 Initially check if the entered number is 0 or not. If false then execute code from if statement; if not print else statement.
 If the number is not 0 then check the remainder, if remainder is 0 then print even; if not display odd number.
 
+
+For more visit : https://github.com/Jakesh-Bohaju/c-programs.git
 */
 
 #include<stdio.h>

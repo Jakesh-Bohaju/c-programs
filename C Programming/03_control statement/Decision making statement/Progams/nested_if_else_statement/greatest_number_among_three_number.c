@@ -13,6 +13,10 @@ if a>b and a>c, a is greater.
 if a>b and a<c, c is greater
 if a<b and b>c, b is greater
 if a<b and b<c, c is greater
+
+
+For more visit : https://github.com/Jakesh-Bohaju/c-programs.git
+
 */
 
 #include<stdio.h>

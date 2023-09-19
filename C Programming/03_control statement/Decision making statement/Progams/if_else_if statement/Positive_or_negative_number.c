@@ -7,6 +7,10 @@ Implementation of if .... else if statement.
 If entered number is greater than 0, display print statememt from if statement.
 If entered number is less than 0, display print statememt from else if statement.
 If entered number is 0, display print statemet from else.
+
+
+For more visit : https://github.com/Jakesh-Bohaju/c-programs.git
+
 */
 
 #include<stdio.h>
