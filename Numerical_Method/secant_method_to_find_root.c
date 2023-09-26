@@ -12,6 +12,9 @@ Algorithm
 6) exit
 
 
+Note : If want to change equation then change it at 
+#define f(x) x *x *x - 2 * x - 5
+
 For more visit : https://github.com/Jakesh-Bohaju/c-programs.git
 */
 
