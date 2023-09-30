@@ -21,7 +21,7 @@ Maximum value for unsigned long int: 4294967295
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
+#include <limits.h>  // this header file for INT_MAX, UINT_MAX, .......
 
 void main()
 {

@@ -9,7 +9,7 @@ c = b i.e c = 5
 b = a i.e b = 2
 a = c i.e a = 5
 
-Swap weithout using third variable, example
+Swap without using third variable, example
 a = 5
 b = 2
 then our logic is,
