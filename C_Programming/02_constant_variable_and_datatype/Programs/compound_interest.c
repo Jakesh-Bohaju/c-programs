@@ -21,5 +21,7 @@ void main()
     i = p * (pow(1 + r / 100, t) - 1);
     printf("The compound interest is Rs. %.2f\n", i);
 
+    printf("The simple interest is Rs. %.2f\n", p*t*r*0.01);
+
     system("pause");
 }
