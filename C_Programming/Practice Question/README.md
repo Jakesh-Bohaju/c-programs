@@ -12,9 +12,9 @@
 
 [Write a program to read two integer numbers n1 and n2 (n1 < n2), display all number which is even and divisible by 3.](https://github.com/Jakesh-Bohaju/c-programs/blob/main/C_Programming/04_control%20statement/Programs/other_examples/even_divisible_by_3.c)
 
-[Pattern 1](https://website-name.com)
+[Pattern 1](https://github.com/Jakesh-Bohaju/c-programs/blob/main/C_Programming/04_control%20statement/Programs/other_examples/pattern1.c)
 
-[Pattern 2](https://website-name.com)
+[Pattern 2](https://github.com/Jakesh-Bohaju/c-programs/blob/main/C_Programming/04_control%20statement/Programs/other_examples/pattern2.c)
 
 [Write a program to check the number is palindrome or not.](https://github.com/Jakesh-Bohaju/c-programs/blob/main/C_Programming/04_control%20statement/Programs/while_loop/palindrome_or_not.c)
 
