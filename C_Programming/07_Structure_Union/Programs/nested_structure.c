@@ -52,9 +52,9 @@ void main()
     printf("%s\t\t\t%d\t\t\t%.2f\t\t%d-%d-%d", st.name, st.rollno, st.marks, st.dateOfBirth.day, st.dateOfBirth.month, st.dateOfBirth.year);
 
     printf("\n\nAccessing day, month and year from date structure variable\n");
-    printf("Day : %d", st.dateOfBirth.day);
-    printf("\nMonth : %d", st.dateOfBirth.month);
-    printf("\nYear : %d", st.dateOfBirth.year);
+    printf("Day : %d", d.day);
+    printf("\nMonth : %d", d.month);
+    printf("\nYear : %d", d.year);
 
     
     system("pause");
