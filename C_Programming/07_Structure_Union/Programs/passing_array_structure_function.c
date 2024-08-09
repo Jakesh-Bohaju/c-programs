@@ -12,16 +12,17 @@ struct student
         char name[20];
         int rollno;
         float marks;
+        char remarks[1];
     };
 
-void dispaly(struct student stf[])
+void display(struct student stf[])
 {
    printf("\nDetail Information of Students\n");
     printf("Name\t\t\tRoll No\t\t\tMarks");
     printf("\n_______________________________________________________\n");
     for(int j=0; j<5; j++)
     {
-        printf("%s\t\t%d\t\t%.2f\n", stf[j].name, stf[j].rollno, stf[j].marks);
+        printf("%s\t\t%d\t\t%.2f\t\t%c\n", stf[j].name, stf[j].rollno, stf[j].marks,stf[j].remarks);
     }
 }
 
@@ -36,11 +37,13 @@ void main()
         scanf("%s",st[i].name);
         printf("Enter roll no: ");
         scanf("%d", &st[i].rollno);
-        printf("Enter maeks: ");
+        printf("Enter marks: ");
         scanf("%f", &st[i].marks);
+        printf("Enter remarks (P for pass and F for fail): ");
+        scanf("%s", st[i].remarks);
     }
     
-    dispaly(st);
+    display(st);
 
     
     system("pause");

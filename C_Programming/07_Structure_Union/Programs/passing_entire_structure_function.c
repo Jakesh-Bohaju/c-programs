@@ -14,7 +14,7 @@ struct student
         float marks;
     };
 
-void dispaly(struct student stf)
+void display(struct student stf)
 {
     printf("\nDetail Information of Students\n");
     printf("Name\t\t\tRoll No\t\t\tMarks");
@@ -35,7 +35,7 @@ void main()
     printf("Enter maeks: ");
     scanf("%f", &st.marks);
     
-    dispaly(st);
+    display(st);
 
     
     system("pause");

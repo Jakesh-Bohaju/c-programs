@@ -7,7 +7,7 @@ For more visit : https://github.com/Jakesh-Bohaju/c-programs.git
 #include <stdio.h>
 #include <stdlib.h>
 
-void dispaly(char name[], int roll, float marks)
+void display(char name[], int roll, float marks)
 {
     printf("\nDetail Information of Students\n");
     printf("Name\t\t\tRoll No\t\t\tMarks");
@@ -35,7 +35,7 @@ void main()
     printf("Enter maeks: ");
     scanf("%f", &st.marks);
     
-    dispaly(st.name, st.rollno, st.marks);
+    display(st.name, st.rollno, st.marks);
 
     
     system("pause");

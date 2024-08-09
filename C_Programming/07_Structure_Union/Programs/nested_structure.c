@@ -39,10 +39,13 @@ void main()
     scanf("%f", &st.marks);
     printf("Enter day: ");
     scanf("%d", &st.dateOfBirth.day);
+    d.day = st.dateOfBirth.day;
     printf("Enter month: ");
     scanf("%d", &st.dateOfBirth.month);
+    d.month = st.dateOfBirth.month;
     printf("Enter year: ");
     scanf("%d", &st.dateOfBirth.year);
+    d.year = st.dateOfBirth.year;
     
 
     printf("\nDetail Information of Students\n");
